@@ -1,0 +1,57 @@
+:root{
+    --col1:cadetblue;
+}
+body{
+    background-color:lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 42px;
+    color:var(--col1) ;
+    margin-bottom: 40px;
+}
+
+textarea{
+    width: 600px;
+    height: 200px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid var(--col1);
+    margin-bottom: 40px;
+}
+
+#voice-select,#pitch-range,#rate-range{
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid var(--col1);
+    padding-left: 10px;
+
+}
+
+.rangecontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#speak-button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(157, 226, 252);
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#speak-button:hover{
+    transform: scale(1.1);
+}
